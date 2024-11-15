@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "PortalGo",
+    "slug": "portalgo",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "ios": { "bundleIdentifier": "com.ericguerra.portalgo", "supportsTablet": true },
+    "android": { "package": "com.ericguerra.portalgo" },
+    "plugins": ["expo-secure-store", "expo-notifications"],
+    "extra": { "graphqlUrl": "https://portal-bff.example.com/graphql" }
+  }
+}
